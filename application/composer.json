@@ -1,0 +1,30 @@
+{
+  "name": "apteles/mailmarketing",
+  "description": "Testcase to impelement a simple manager of email marketing",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andre Teles",
+      "email": "andre.telestp@gmail.com"
+    }
+  ],
+  "require": {
+    "league/route": "^4.3",
+    "laminas/laminas-diactoros": "^2.2",
+    "laminas/laminas-httphandlerrunner": "^1.1",
+    "php-di/php-di": "^6.1",
+    "twig/twig": "^3.0",
+    "robmorgan/phinx": "^0.12.1",
+    "symfony/yaml": "^5.0"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^2.16",
+    "phpunit/phpunit": "^9.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "MailMarketing\\": "src"
+    }
+  }
+}
