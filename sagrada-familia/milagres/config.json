@@ -1,0 +1,30 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "name": "Milagres de Cura",
+            "slug": "milagres-de-cura"
+        },
+        {
+            "id": 2,
+            "name": "Milagres de Família",
+            "slug": "milagres-de-familia"
+        },
+        {
+            "id": 3,
+            "name": "Milagres de Vícios",
+            "slug": "milagres-de-vicios"
+        },
+        {
+            "id": 4,
+            "name": "Milagres Financeiros",
+            "slug": "milagres-financeios"
+        },
+        {
+            "id": 5,
+            "name": "Milagres Diversos",
+            "slug": "milagres-diversos"
+        }
+        
+    ]
+}

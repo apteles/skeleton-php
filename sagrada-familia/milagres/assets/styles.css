@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding: 0;
+    outline:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: #FFFFFF;
+    background-image: url(../images/bg_1.JPG);
+    background-position:115% 30%;
+    min-height:100vh;
+    color: #FFF;
+    text-rendering: optimizeLegibility ;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+a {
+    text-decoration: none;
+}
+
+body,input,button{
+    font: 1.6rem 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+button{
+cursor: pointer;
+}
+h1,h2,h3,h4,h5,h6,strong{
+font-weight: 500;
+}
+nav {
+    min-height: 30vh;
+    justify-content: center;
+}
+nav, main{
+    width: 100%;
+    display: flex;
+}
+nav .image {
+    max-width: 220px;
+}
+
+#menu {
+    min-height: 70vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5rem 5rem 0rem 5rem;
+}
+
+.default-color  {
+    transition: background-color 0.3s ease;
+    background-color: #14535c;
+   
+ }
+.default-color :hover {
+    background-color: #153f45;
+
+}
+#menu a {
+    min-width: 50%;
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 3rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 2rem;
+    font-weight: 500;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    color: #FFF;
+}
+#menu a.transition {
+    transition: background-color 0.3s ease;
+}
+#menu a.color {
+   background-color: #14535c;
+  
+}
+#menu a.color:hover {
+    background-color: #153f45;
+   
+ }
+
+#menu a.color-familia {
+    background-color: #ee6352;
+ }
+
+ #menu a.color-familia:hover {
+    background-color: #ce5b4b;
+ }
+ #menu a.color-vicio {
+    background-color: #f7c100;
+ }
+
+ #menu a.color-vicio:hover {
+    background-color: #d7ad15;
+ }
+
+ #menu a.color-financeiro {
+    background-color: #3fa7d6;
+ }
+
+ #menu a.color-financeiro:hover {
+    background-color: #4694b8;
+ }
+
+#menu a.color-diversos {
+    background-color: #F79D84;
+}
+
+#menu a.color-diversos:hover {
+    background-color: #df9b88;
+}
+/** Página milagres **/
+#videos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    
+    gap: 2rem;
+    padding: 2rem;
+    /* border: 1px solid red; */
+    
+    /* min-height: 70vh; */
+    /* flex-direction: column; */
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    
+}
+div.box-video {
+     min-width: 35rem;
+     height: 20rem;
+     margin-right: 1rem;
+}
+div.box-video a {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.box-video a span{
+    display: block;
+    font-size: 4rem;
+    padding: 1rem;
+    color: #FFF;
+}
+
+div.back-buttom{
+    height: 20rem;
+    min-width: 50rem;
+}
+div.back-buttom a{
+    height: 100%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: #FFF;
+
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+svg.icon{
+    display: inline-block;
+    width: 8rem;
+    height: 8rem;
+    color: #f7c100;
+}
+
+div.box-video video {
+    max-width: 35rem;
+    cursor: pointer;
+}
+
+
+.alert {
+    height: 20rem;
+    width: 1600px;
+    max-width: 90%;
+    border-radius: 12px;
+    padding: 16px 22px 17px 20px;
+    display: flex;
+    align-items: center;
+  }
+  .alert-warning {
+    background: #f2a600;
+  }
+.icon__wrapper .icon{
+    width: 10rem;
+    height: 10rem
+}
+.box-video-warning p{
+    font-size: 5rem;
+    margin-left: 2rem;
+}
